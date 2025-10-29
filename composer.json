@@ -1,7 +1,8 @@
 {
     "name": "user/task-manager",
-    "description": "taskmanager-app",
+    "description": "A simple PHP project using Twig templates.",
     "type": "project",
+    "license": "MIT",
     "autoload": {
         "psr-4": {
             "User\\TaskManager\\": "src/"
@@ -13,5 +14,7 @@
             "email": "ejoy7602@gmail.com"
         }
     ],
-    "require": {}
+    "require": {
+        "twig/twig": "^3.21"
+    }
 }
